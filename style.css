@@ -1,0 +1,48 @@
+body {
+    font-family: system-ui, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    background: #f4f6fb;
+    color: #1b1f2a;
+}
+section {
+    background: white;
+    border: 1px solid #d5d9e5;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+h2 {
+  color: #2457d6;
+  font-size: 1.1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: .4rem;
+  border-bottom: 1px solid #e2e5ee;
+  word-break: break-word;
+}
+
+td:first-child {
+  font-weight: bold;
+  width: 40%;
+}
+
+button {
+  padding: .5rem 1rem;
+  border: 0;
+  border-radius: 8px;
+  background: #2457d6;
+  color: white;
+  cursor: pointer;
+}
